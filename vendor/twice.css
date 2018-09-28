@@ -1,0 +1,70 @@
+.text-twice {
+        color: #FF69B4 !important;
+      }
+
+      a.text-twice:focus, a.text-twice:hover {
+      color: #FF99CC !important;
+      }
+
+.btn-twice {
+  color: #fff;
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+.btn-twice:hover {
+  color: #fff;
+  background-color: #FF99CC;
+  border-color: #ff99ff;
+}
+
+.btn-twice:focus, .btn-twice.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 230, 0.5);
+}
+
+.btn-twice.disabled, .btn-twice:disabled {
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+.btn-twice:not([disabled]):not(.disabled):active, .btn-twice:not([disabled]):not(.disabled).active,
+.show > .btn-twice.dropdown-toggle {
+  color: #fff;
+  background-color: #ff99ff;
+  border-color: #ff9999;
+}
+
+.btn-twice:not([disabled]):not(.disabled):active:focus, .btn-twice:not([disabled]):not(.disabled).active:focus,
+.show > .btn-twice.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 230, 0.5);
+}
+
+.btn-outline-twice {
+  color: #FF69B4;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FF69B4;
+}
+
+.btn-outline-twice:hover {
+  color: #fff;
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+.btn-outline-twice:focus, .btn-outline-twice.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 230, 0.5);
+}
+
+.btn-outline-twice.disabled, .btn-outline-twice:disabled {
+  color: #FF69B4;
+  background-color: transparent;
+}
+
+.btn-outline-twice:not([disabled]):not(.disabled):active, .btn-outline-twice:not([disabled]):not(.disabled).active,
+.show > .btn-outline-twice.dropdown-toggle {
+  color: #fff;
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 230, 0.5);
+}
